@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #6A0DAD; /* Morado */
+    color: #FFFFFF; /* Blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFD700; /* Amarillo */
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+
+.control-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para el formulario de Alumnos */
+#alumnos-form {
+    background-color: #9370DB; /* Morado */
+    color: #FFFFFF; /* Blanco */
+    padding: 20px;
+    margin: 0;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    height: auto;
+    
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFD700; /* Amarillo */
+}
+
+input,
+textarea {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #FFFFFF; /* Blanco */
+    border-radius: 5px;
+}
+
+button {
+    text-align: center;
+    background-color: #FFD700; /* Amarillo */
+    color: #6A0DAD; /* Morado */
+    padding: 10px 15px;
+    width:200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FFFFFF; /* Blanco */
+    color: #6A0DAD; /* Morado */
+}
+
+.boton{
+    display: flex;
+    justify-content:space-around;
+
+    gap: 20px;
+}
+
+select{
+    width: 100px;
+}
+
+.fondo{
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+}
+

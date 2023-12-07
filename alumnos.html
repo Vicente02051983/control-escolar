@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Escolar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Control Escolar</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="alumnos.html">Alumnos</a></li>
+            <li><a href="#maestros">Maestros</a></li>
+            <li><a href="#evaluaciones">Evaluaciones</a></li>
+            <li><a href="#examenes">Exámenes</a></li>
+            <li><a href="#graficas">Gráficas</a></li>
+            <li><a href="#pendientes">Pendientes</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Formulario para Alumnos -->
+    <div class="fondo">
+        <section id="alumnos-form">
+            <h2>Registro de Alumnos</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre del Alumno:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="correo@correo.com" required>
+
+                <label class="grado-opciones"  for="grado">Grado:</label>
+                <select id="grado" name="grado" required ">
+                    <option value="primero">Primero</option>
+                    <option value="segundo">Segundo</option>
+                    <option value="tercero">Tercero</option>
+                    <option value="cuarto">Cuarto</option>
+                    <option value="quinto">Quinto</option>
+                    <option value="sexto">Sexto</option>
+                </select>    <!-- Agrega más opciones según sea necesario -->
+                
+                <label class="'grupo-opciones" for="grado">Grupo:</label>
+                <select id="grado" name="grado" required>
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+
+                </select>
+
+                <label for="observaciones">Observaciones:</label>
+                <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+                
+            
+            </form>
+            <div class="boton">
+                <button type="submit">Enviar</button>
+                <button type="submit">Cancelar</button>
+            </div>
+        </section>
+    </div>
+
+    
+</main>
+
+</body>
+</html>
